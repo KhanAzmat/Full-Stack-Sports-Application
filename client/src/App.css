@@ -1,0 +1,364 @@
+
+/* theme color: #fdb913 */
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+body {
+  font-family: "","Roboto", "Quicksand" sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+  height:100vh;
+  margin: 0;
+  padding:0 !important;
+
+}
+.App {
+  text-align: center;
+  font-family: "", "Quicksand", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.sidebar-item {
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+.sidebar-item:hover {
+  text-decoration: none !important;;
+  color: #0040a6 !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.login {
+  background-image: url("login-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.ListItemText {
+  font-family: "Arial" !important;
+}
+
+.btn {
+  /* background-color: #fdb913 !important; */
+}
+.tag:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-grey {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.upload-section {
+  display: flex;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.drop-zone {
+  margin-bottom: 10px;
+  padding: 40px 10px;
+  height: inherit;
+  border: 2px dashed #e9ebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.image-preview {
+  height: inherit;
+  margin-left: 5%;
+}
+
+.preview-image {
+  width: 100%;
+  height: inherit;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.preview-message {
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+  width: 130%;
+  height: 90vh;
+}
+.canvas {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  /* float: right; */
+}
+
+.anchor-wrapper {
+  margin: auto;
+  width: 100%;
+  height: 600px;
+}
+.anchor-canvas {
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+.sideWrapper {
+  /* width: 20%;
+  height: 600px;
+  background-color: #31323b;
+  float: left; */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.infoContainer {
+  background-color: #272833;
+}
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font: 14px Arial, Helvetica, sans-serif;
+  color: #a7a7a8;
+  background-color: #323341;
+}
+.addAnchorBtn,
+.submitData {
+  width: 100%;
+  margin-top: 10px;
+  /* margin-left:30px; */
+  height: 40px;
+  border: none;
+  background-color: #525363;
+  color: #a7a7a8;
+}
+.addAnchorBtn:hover,
+.submitData:hover {
+  cursor: pointer;
+  background-color: #a7a7a8;
+  color: black;
+}
+
+.anchorInfo {
+  max-width: 400px;
+  padding: 10px 12px 10px 20px;
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #a7a7a8;
+}
+.anchorInfo label {
+  display: block;
+  margin: 0px 0px 2px 0px;
+}
+.anchorInfo label > span {
+  width: 100px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+.anchorInfo .input-field:focus {
+  border: 1px solid #0c0;
+}
+
+.updateBtn {
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 39%;
+  height: 30px;
+  border: none;
+  background-color: #525363;
+  color: #a7a7a8;
+}
+.updateBtn:hover {
+  cursor: pointer;
+  background-color: #a7a7a8;
+  color: black;
+}
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #ffb64d, #ffcb80);
+}
+
+.bg-c-pink {
+  background: linear-gradient(45deg, #ff5370, #ff869a);
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.geofence-name:hover {
+  background-color: #ccc !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #0040a6 !important;
+  border: none !important;
+}
+
+#canvas {
+  width: 100%;
+  height: 100vh;
+}
+
+.sideWrapper {
+  width: 20%;
+  height: 600px;
+  background-color: #31323b;
+  float: left;
+}
+.infoContainer {
+  background-color: #272833;
+}
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font: 14px Arial, Helvetica, sans-serif;
+  color: #a7a7a8;
+  background-color: #323341;
+}
+.addAnchorBtn,
+.submitData {
+  width: 100%;
+  margin-top: 10px;
+  /* margin-left:30px; */
+  height: 40px;
+  border: none;
+  background-color: #525363;
+  color: #a7a7a8;
+}
+.addAnchorBtn:hover,
+.submitData:hover {
+  cursor: pointer;
+  background-color: #a7a7a8;
+  color: black;
+}
+
+.anchorInfo {
+  max-width: 400px;
+  padding: 10px 12px 10px 20px;
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #a7a7a8;
+}
+.anchorInfo label {
+  display: block;
+  margin: 0px 0px 2px 0px;
+}
+.anchorInfo label > span {
+  width: 100px;
+  float: left;
+  padding-top: 8px;
+  padding-right: 5px;
+}
+.anchorInfo .input-field:focus {
+  border: 1px solid #0c0;
+}
+
+.updateBtn {
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 39%;
+  height: 30px;
+  border: none;
+  background-color: #525363;
+  color: #a7a7a8;
+}
+.updateBtn:hover {
+  cursor: pointer;
+  background-color: #a7a7a8;
+  color: black;
+}
