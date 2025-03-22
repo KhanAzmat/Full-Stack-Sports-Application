@@ -7,9 +7,8 @@ const websoc = require("./webSocketProcess")
 const dbconnect = require("./models/dbconnect")
 const cp = require("child_process")
 const path =require("path")
-const erp= require('electron-root-path');
-const eip=require('electron-is-packaged');
-const readProc = require("./read_data_controller")
+
+
 
    var binaryPath = path.join("./rtls")
 
