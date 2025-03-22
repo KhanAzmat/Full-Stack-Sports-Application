@@ -1,15 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-# Correctly identify JavaScript files
-*.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
-
-# Correctly identify JSON files
-*.json linguist-language=JSON
-
-# Mark data files as non-language files
-data/* linguist-vendored
-*.lock linguist-vendored
-*.log linguist-vendored
-
+* linguist-vendored
+*.js linguist-vendored=false
