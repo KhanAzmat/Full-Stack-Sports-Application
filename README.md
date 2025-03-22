@@ -1,2 +1,2 @@
-# demo_kit_v2
- This is demo kit software
+# Full-Stack Sports Activity Tracker
+ This is a demo software for recording, tracking and analysing players activites and stats using a RTLS positioning system.
